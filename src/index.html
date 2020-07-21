@@ -7,49 +7,7 @@
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>cv</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        #html {
-            word-wrap: break-word;
-        }
-
-        #div {
-            position: fixed;
-            top: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        #div::before {
-            content: '';
-            display: block;
-            position: relative;
-        }
-
-        #div::after {
-            content: '';
-            display: block;
-            position: relative;
-        }
-
-        @media (max-width: 500px) {
-            #html {
-                height: 50vh;
-                overflow: auto;
-
-            }
-
-            #div {
-                position: relative;
-                border: 1px solid red;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
